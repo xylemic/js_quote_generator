@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-color: #262626;
+  height: 100vh;
+}
+
+.container {
+  max-width: 450px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.heading-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.8rem;
+  border: 2px solid #fff;
+  background: #262626;
+  border-radius: 8px;
+}
+
+.main-content {
+  text-align: center;
+  background: #fff;
+  color: #262626;
+  height: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px;
+}
+
+.quote-area {
+  margin-bottom: 20px;
+}
+
+.quote-area .quote {
+  font-size: 1.7rem;
+  font-style: italic;
+}
+
+.author-info {
+  font-size: 1.6rem;
+  color: #ff0000;
+  margin-bottom: 45px;
+}
+
+.button-area .button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #262626;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-area .button:active {
+  background: #add8e6;
+}
+
+.dark-mode {
+  background: #262626;
+}
+
+.dark-mode.main-content,
+.dark-mode.quote-area .quote,
+.dark-mode.author-info {
+  color: #fff;
+}
+
+.dark-mode .button {
+  background: #fff;
+  color: #262626;
+}
