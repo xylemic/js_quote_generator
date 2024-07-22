@@ -78,3 +78,20 @@ body {
   background: #fff;
   color: #262626;
 }
+
+@media (max-width: 978px) {
+  body {
+    padding: 0 30px;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .heading-title {
+    font-size: 1.4rem;
+  }
+
+  .main-content {
+    height: 100%;
+  }
+}
